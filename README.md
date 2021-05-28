@@ -1,3 +1,46 @@
+# Chat-App
+Another practice React app.
+
+## Deploy
+- Live @: http://tomgalpin.github.io/chat-app
+  - From: https://github.com/gitname/react-gh-pages
+
+## Structure
+    .
+    ├── /public
+    │     └── favicon.ico
+    │     └── index.html
+    │     └── manifest.json
+    │     └── robots.txt
+    ├── /src
+    │     ├──/assets
+    │     │     └── /styles
+    │     │           ├── colors.js
+    │     │           ├── globals.js
+    │     │           └── reset.js
+    │     ├── /components
+    │     │     ├── /button
+    │     │     │      ├── button.js
+    │     │     │      ├── button.test.js
+    │     │     │      └── styled-button.js
+    │     │     └── ...
+    │     ├── /data
+    │     │     └── data.json
+    │     ├── /pages
+    │     │     ├── app.js
+    │     │     └── app.test.js
+    │     ├── /utils
+    │     │     ├── readable-date.js
+    │     │     └── readable-date.test.j
+    │     └── index.js
+    ├── package.json
+    └── README.md
+
+---
+---
+---
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
